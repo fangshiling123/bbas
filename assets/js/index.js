@@ -1,4 +1,4 @@
-function getUserinfo() {
+function getUserInfo() {
     $.ajax({
      type:'GET', 
      url: "/my/userinfo",
@@ -34,4 +34,4 @@ $('#btn-aab').click(()=>{
             location.href="/login.html";
             });
 });
-getUserinfo();
+getUserInfo();
